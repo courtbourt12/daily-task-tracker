@@ -9,7 +9,6 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
 }
 
@@ -32,7 +31,7 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 70px;
   border-top: 1px solid white;
 }
 
@@ -57,12 +56,8 @@ textarea {
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+table {
+  margin-bottom: 30px;
 }
 
 .saveBtn i:hover {
@@ -75,9 +70,27 @@ textarea {
 }
 
 #middleCol {
-  width: 250%;
+  width: 200%;
 }
 
 table td {
-  height: 100px;
+  white-space: pre-wrap;
+  height: 70px;
+  border-top: 1px solid white;
+}
+
+#hours {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+#buttons {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
 }
